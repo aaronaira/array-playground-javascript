@@ -12,6 +12,7 @@
 
  /**
   * Fíjate sin embargo qué valor arroja aplicar indexOf cuando buscamos a "estrella". CONTESTA: ¿Por qué crees que sucede esto?
+  * Porque la e de estrella está en minúscula y JS es case-sensitive
   */
 
   let pezPosicion2 = muchos_peces.indexOf("estrella")

@@ -12,7 +12,11 @@ let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
 
 for(let i=0; i<muchos_peces.length; i++) {
     let siguiente_pez = muchos_peces[i]
-    console.log("Pez siguiente: " + siguiente_pez)
+    if (siguiente_pez == "Nemo") {
+        console.log("Pez siguiente: " + siguiente_pez)
+    } else {
+        console.log("Este pez no es nemo!")
+    }
 
     // Modifica SOLAMENTE a partir de aquí
 }

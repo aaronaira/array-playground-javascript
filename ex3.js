@@ -16,6 +16,7 @@
 
  /**
   * Ejecuta el siguiente código e intenta averiguar que está sucediendo. CONTESTA A LA PREGUNTA: ¿Porque el úñtimo mensaje dice "Pez siguiente: undefined?"
+  * Porque el for se ejecuta mientras i sea IGUAL o menor que el length del array, como el array tiene 4 elementos, el bucle se está ejecutando desde el 0 hasta al 4 y no existe el indice 4 en ese array, solo llega hasta el 3
   */
 
 let muchos_peces = ["Dory", "Nemo", "Shipho", "Estrella"]
